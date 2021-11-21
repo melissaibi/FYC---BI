@@ -61,3 +61,8 @@ $('#menu > ul').superfish({
 	arrowClass: false,
 	autoArrows:  true
 });
+
+function showImage() {
+    var img = document.getElementById('myImageId');
+    img.style.visibility = 'visible';
+}
